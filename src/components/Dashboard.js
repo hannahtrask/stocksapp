@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Dashboard = (props) => {
 
-console.log(props)
+// console.log(props)
 
 const allStocks = props.stockData.map ( (stock) => {
 return (

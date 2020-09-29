@@ -35,7 +35,10 @@ function App() {
           <Route path='/stocks/:stock' 
           /*this will pass in all that fun routerProps stuff along with handleclick, which will manage clicking on*/
           /*the individual stocks, and will also pass the stock value from the useState instantiated above*/ 
-                 render={routerProps => (<Stock handleClick={handleClick} {...routerProps} stock={stock} />)}
+                 render={routerProps => (<Stock handleClick={handleClick} 
+                                                {...routerProps} 
+                                                stockData={stockData} 
+                                                />)}
                  />
         </Switch>
 				</div>
