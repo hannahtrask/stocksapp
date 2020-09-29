@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #729B79;
+  color: white;
+}
+
+.links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  cursor: pointer;
+}
+
+
+
+ul {
+  list-style: none;
+  padding: 5px;
+  line-height: 15px;
+}
