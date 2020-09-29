@@ -1,10 +1,15 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+body {
+    background-color: #f3e8ee;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -43,6 +48,10 @@ nav {
   align-items: center;
   background-color: #729B79;
   color: white;
+}
+
+h1 {
+  color: #475b63;
 }
 
 .links {
