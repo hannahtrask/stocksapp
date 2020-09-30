@@ -16,6 +16,8 @@ return (
 				<strong>
 					<span>{stock.symbol}</span>
 				</strong>{' '}
+                { stock.change > 0 ? <span className="green">{stock.change}</span> : <span className = "red">{stock.change}</span> }
+                {/* {stock.change} */}
 			</p>
 		</Link>
 	</>
