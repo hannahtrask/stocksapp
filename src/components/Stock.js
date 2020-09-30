@@ -13,7 +13,7 @@ useEffect(()=> {
 }, [])
 
 //maybe this filter will work? filter out looking for stock clicked on
-//omg if the name matches in the filter.. maybe for each?? somethign that doesn't return an array
+//if the name matches in the filter.. maybe for each??
 //you can use the data
 //stockData is an array
 
