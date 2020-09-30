@@ -21,10 +21,12 @@ useEffect(()=> {
 let currentStock = props.stockData.filter(function (e) {
     if (props.match.params.stock === e.name) {
         //this works, how do I put it in the return statement below??
-        console.log(e)
+        console.log('this is e', e)
+        return e
     }
 })
 
+let currentStock1 = currentStock;
 //returns just name as string
 console.log('this is json stringified', JSON.stringify(props.match.params.stock))
 
